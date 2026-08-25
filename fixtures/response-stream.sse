@@ -1,0 +1,5 @@
+data: {"type":"response.output_text.delta","delta":"fixture"}
+
+data: [DONE]
+
+# Synthetic parser fixture only. Not an official OpenAI capture.

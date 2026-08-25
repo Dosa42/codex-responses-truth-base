@@ -1,0 +1,5 @@
+{
+  "_template_notice": "Fill MCP server fields from the current pinned MCP schema/docs before use; this file deliberately does not invent a server URL or credentials.",
+  "model": "gpt-5.6-sol",
+  "input": "Use the configured MCP server when relevant."
+}
