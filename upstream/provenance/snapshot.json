@@ -42,6 +42,12 @@
       "requested_url": "https://developers.openai.com/api/docs/guides/conversation-state.md",
       "sha256": "e6ccb2f4aac5b98b25e344f07a16d4b0284db2615305b5b1ae00ca60077ec847"
     },
+    "upstream/docs/file-search.md": {
+      "bytes": 25637,
+      "final_url": "https://developers.openai.com/api/docs/guides/tools-file-search.md",
+      "requested_url": "https://developers.openai.com/api/docs/guides/tools-file-search.md",
+      "sha256": "d9e7af10d5a4d7f5b12e90cc7d153e5a35e0c2ae9a0e667c0e07fa8bd39bfd92"
+    },
     "upstream/docs/function-calling.md": {
       "bytes": 73685,
       "final_url": "https://developers.openai.com/api/docs/guides/function-calling.md",
@@ -59,6 +65,12 @@
       "final_url": "https://developers.openai.com/api/docs/guides/tools-shell.md",
       "requested_url": "https://developers.openai.com/api/docs/guides/tools-shell.md",
       "sha256": "05a4fc082fad71e77963659eeb6e2f21c8c4a2038874eae3dacb1ba3ce08b8cc"
+    },
+    "upstream/docs/image-generation.md": {
+      "bytes": 30754,
+      "final_url": "https://developers.openai.com/api/docs/guides/tools-image-generation.md",
+      "requested_url": "https://developers.openai.com/api/docs/guides/tools-image-generation.md",
+      "sha256": "a222409ec80180ecc03cfe96cbb0b82896394cedccd8b9346341aadfab9265cd"
     },
     "upstream/docs/mcp-connectors.md": {
       "bytes": 60788,
@@ -90,6 +102,12 @@
       "requested_url": "https://developers.openai.com/api/docs/guides/migrate-to-responses.md",
       "sha256": "3aef95e9d0c23bcb78d1a1260a674296458e7d7c523f00aa5a9d52567b0edc28"
     },
+    "upstream/docs/secure-mcp-tunnels.md": {
+      "bytes": 15917,
+      "final_url": "https://developers.openai.com/api/docs/guides/secure-mcp-tunnels.md",
+      "requested_url": "https://developers.openai.com/api/docs/guides/secure-mcp-tunnels.md",
+      "sha256": "c7b2edc6fe4b09b9b0709036577bdc332a475fd1533b1f429b40b840cdcdd21d"
+    },
     "upstream/docs/skills.md": {
       "bytes": 17627,
       "final_url": "https://developers.openai.com/api/docs/guides/tools-skills.md",
@@ -108,11 +126,23 @@
       "requested_url": "https://developers.openai.com/api/docs/guides/tools-tool-search.md",
       "sha256": "bf38fa5a13a09bb36fe6ab0b06214d2048ef26ce52f596775e2f9b104c351551"
     },
+    "upstream/docs/web-search.md": {
+      "bytes": 47059,
+      "final_url": "https://developers.openai.com/api/docs/guides/tools-web-search.md",
+      "requested_url": "https://developers.openai.com/api/docs/guides/tools-web-search.md",
+      "sha256": "e78e836f7c1aca4c70ec7fe85f45c5807f466c05c5d77d69c548a464b1d5447c"
+    },
     "upstream/docs/webhooks.md": {
       "bytes": 11329,
       "final_url": "https://developers.openai.com/api/docs/guides/webhooks.md",
       "requested_url": "https://developers.openai.com/api/docs/guides/webhooks.md",
       "sha256": "c647843e21c03cd1db2ae64aa08325781df71148e48ac9e2e2212c93a7a549ab"
+    },
+    "upstream/docs/websocket-mode.md": {
+      "bytes": 15807,
+      "final_url": "https://developers.openai.com/api/docs/guides/websocket-mode.md",
+      "requested_url": "https://developers.openai.com/api/docs/guides/websocket-mode.md",
+      "sha256": "0360e80caba6ac02901b0b0e6b5ea5c724d01112258baebad690f6009fa4a721"
     },
     "upstream/openapi/openapi.yaml": {
       "bytes": 2971592,
@@ -122,5 +152,5 @@
     }
   },
   "openapi_commit": "a0a969c1f51254ff5c0393933787c76e2576912a",
-  "retrieved_at": "2026-08-25T05:35:07.616723+00:00"
+  "retrieved_at": "2026-08-25T05:38:11.903839+00:00"
 }
