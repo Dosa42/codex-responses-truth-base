@@ -1,0 +1,5 @@
+{
+  "model": "gpt-5.6-sol",
+  "input": "Return a concise response.",
+  "stream": true
+}

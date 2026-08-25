@@ -1,0 +1,18 @@
+{
+  "nodes": {
+    "official_openapi": {"path": "upstream/openapi/openapi.yaml", "authority": 0},
+    "official_docs": {"path": "upstream/docs/", "authority": 0},
+    "schema_extractions": {"path": "schema/", "authority": 1},
+    "references": {"path": "reference/", "authority": 2},
+    "reuse_artifacts": {"path": "artifacts/", "authority": 3},
+    "fixtures": {"path": "fixtures/", "authority": 4}
+  },
+  "edges": [
+    ["official_openapi", "schema_extractions"],
+    ["official_openapi", "references"],
+    ["official_docs", "references"],
+    ["schema_extractions", "reuse_artifacts"],
+    ["official_docs", "reuse_artifacts"],
+    ["reuse_artifacts", "fixtures"]
+  ]
+}

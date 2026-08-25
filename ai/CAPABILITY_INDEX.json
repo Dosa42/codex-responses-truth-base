@@ -1,0 +1,20 @@
+{
+  "responses": {"schema": "upstream/openapi/openapi.yaml", "docs": ["upstream/docs/responses-api.md"]},
+  "conversation_state": {"docs": ["upstream/docs/conversation-state.md"]},
+  "background_mode": {"docs": ["upstream/docs/background-mode.md"]},
+  "streaming": {"docs": ["upstream/docs/streaming-responses.md"]},
+  "webhooks": {"docs": ["upstream/docs/webhooks.md"]},
+  "compaction": {"docs": ["upstream/docs/compaction.md"]},
+  "function_calling": {"docs": ["upstream/docs/function-calling.md"]},
+  "hosted_shell": {"docs": ["upstream/docs/hosted-shell.md"]},
+  "code_interpreter": {"docs": ["upstream/docs/code-interpreter.md"]},
+  "skills": {"docs": ["upstream/docs/skills.md"]},
+  "tool_search": {"docs": ["upstream/docs/tool-search.md"]},
+  "programmatic_tool_calling": {"docs": ["upstream/docs/programmatic-tool-calling.md"]},
+  "apply_patch": {"docs": ["upstream/docs/apply-patch.md"]},
+  "computer_use": {"docs": ["upstream/docs/computer-use.md"]},
+  "mcp_connectors": {"docs": ["upstream/docs/mcp-connectors.md"]},
+  "multi_agent": {"docs": ["upstream/docs/multi-agent.md"]},
+  "codex_hooks": {"docs": ["upstream/docs/codex-hooks.md"], "note": "Codex runtime lifecycle; do not silently reclassify as a generic Responses tool."},
+  "gpt_5_6_sol": {"docs": ["upstream/docs/gpt-5.6-sol.md"]}
+}
