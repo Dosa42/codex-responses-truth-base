@@ -9,6 +9,7 @@
 - Need capability explanations and boundaries? → [`reference/`](reference/)
 - Need reusable integration artifacts? → [`artifacts/`](artifacts/)
 - Need structural examples/fixtures? → [`fixtures/`](fixtures/)
+- Need to validate a consuming project after reuse? → **[`validator/`](validator/)**
 - Are you an AI/code agent? → **[`ai/READ_FIRST.md`](ai/READ_FIRST.md)**
 
 ## Truth order
@@ -22,4 +23,14 @@
 
 If layers disagree, the higher layer wins. **Examples and reusable code are never evidence of OpenAI API behavior.**
 
-See [`SOURCE_OF_TRUTH.md`](SOURCE_OF_TRUTH.md), [`MANIFEST.json`](MANIFEST.json), and [`ai/TRUTH_PRIORITY.json`](ai/TRUTH_PRIORITY.json) before deriving architecture from this repository.
+## Mandatory downstream validation
+
+A project that reuses this repository should copy `validator/integration-manifest.template.json` as `codex-responses.integration.json`, declare the exact reused capabilities/artifacts, and run:
+
+```bash
+./validator/codex-responses-validate --project /path/to/project
+```
+
+The validator checks the truth snapshot first, then validates the consuming project's declared reuse, Responses integration evidence, copied-artifact integrity, legacy/private endpoint substitutions, and project build/test/typecheck commands. A failed required check returns a non-zero exit code.
+
+See [`SOURCE_OF_TRUTH.md`](SOURCE_OF_TRUTH.md), [`MANIFEST.json`](MANIFEST.json), [`ai/TRUTH_PRIORITY.json`](ai/TRUTH_PRIORITY.json), and [`validator/README.md`](validator/README.md) before deriving architecture from this repository.

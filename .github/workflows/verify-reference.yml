@@ -26,3 +26,7 @@ jobs:
         run: python tests/fixture-validation/check.py
       - name: Strict TypeScript check
         run: npx --yes -p typescript@5.9.2 tsc artifacts/typescript/OpenAICodexResponses.ts --noEmit --strict --target ES2022 --module ES2022 --lib ES2022,DOM --skipLibCheck
+      - name: Validate truth base through portable validator
+        run: python validator/codex_responses_validate.py
+      - name: Validate downstream consumer fixture
+        run: python validator/codex_responses_validate.py --project tests/validator-consumer
