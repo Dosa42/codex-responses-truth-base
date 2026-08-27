@@ -1,9 +1,0 @@
-{
-  "upstream": "Unmodified official OpenAI source snapshots.",
-  "schema": "Machine-derived OpenAPI fragments and indexes. Regenerate; do not hand-edit.",
-  "reference": "Human/AI navigation and boundary explanations derived from upstream.",
-  "artifacts": "Portable copy/reuse material for other projects. Not authoritative.",
-  "fixtures": "Structural examples for tests and orientation. Not authoritative.",
-  "ai": "Machine-readable repository navigation and anti-assumption rules.",
-  "scripts": "Deterministic synchronization, extraction and verification tooling."
-}

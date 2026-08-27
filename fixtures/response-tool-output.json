@@ -1,6 +1,0 @@
-{
-  "type": "function_call_output",
-  "call_id": "call_fixture_not_real",
-  "output": "{\"ok\":true}",
-  "_fixture_notice": "Synthetic fixture. Not an official OpenAI response sample."
-}
