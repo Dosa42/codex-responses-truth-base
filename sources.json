@@ -1,0 +1,22 @@
+{
+  "downloads": {
+    "official/codex/login/auth-manager.rs": "https://raw.githubusercontent.com/openai/codex/7c3747941a6b664c30f1e6aa72a917fd74dc22d2/codex-rs/login/src/auth/manager.rs",
+    "official/codex/login/pkce.rs": "https://raw.githubusercontent.com/openai/codex/7c3747941a6b664c30f1e6aa72a917fd74dc22d2/codex-rs/login/src/pkce.rs",
+    "official/codex/login/server.rs": "https://raw.githubusercontent.com/openai/codex/7c3747941a6b664c30f1e6aa72a917fd74dc22d2/codex-rs/login/src/server.rs",
+    "official/codex/model-provider-auth.rs": "https://raw.githubusercontent.com/openai/codex/7c3747941a6b664c30f1e6aa72a917fd74dc22d2/codex-rs/model-provider/src/auth.rs",
+    "official/codex/model-provider-info.rs": "https://raw.githubusercontent.com/openai/codex/7c3747941a6b664c30f1e6aa72a917fd74dc22d2/codex-rs/model-provider-info/src/lib.rs",
+    "official/docs/code-interpreter.md": "https://developers.openai.com/api/docs/guides/tools-code-interpreter.md",
+    "official/docs/codex-hooks.md": "https://developers.openai.com/codex/hooks.md",
+    "official/docs/gpt-5.6-sol.md": "https://developers.openai.com/api/docs/models/gpt-5.6-sol.md",
+    "official/docs/hosted-shell.md": "https://developers.openai.com/api/docs/guides/tools-shell.md",
+    "official/docs/mcp-connectors.md": "https://developers.openai.com/api/docs/guides/tools-connectors-mcp.md",
+    "official/docs/multi-agent.md": "https://developers.openai.com/api/docs/guides/responses-multi-agent.md",
+    "official/docs/programmatic-tool-calling.md": "https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling.md",
+    "official/docs/responses.md": "https://developers.openai.com/api/docs/guides/migrate-to-responses.md",
+    "official/docs/skills.md": "https://developers.openai.com/api/docs/guides/tools-skills.md",
+    "official/docs/tool-search.md": "https://developers.openai.com/api/docs/guides/tools-tool-search.md",
+    "official/openapi/openapi.json": "https://raw.githubusercontent.com/openai/openai-openapi/1665a18fe20217c989c66dd73888345c6e4eb63c/openapi.json"
+  },
+  "openai_codex_commit": "7c3747941a6b664c30f1e6aa72a917fd74dc22d2",
+  "openai_openapi_commit": "1665a18fe20217c989c66dd73888345c6e4eb63c"
+}
